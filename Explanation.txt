@@ -1,0 +1,61 @@
+Given n points on a 2D plane, find if there is such a line parallel to y-axis that reflect the given set of points.
+
+Input Description:
+First line contains, N the size of matrix.(2<N<100).
+Rest line contains, NxN integers as inputs.
+
+Output Description:
+Print True and False
+
+Sample Input:
+2
+1 1
+-1 1
+
+Sample Output:
+True
+
+Explanation:
+-1 and 1 has the Y axis points.
+
+Sample Input:
+3
+1 2 1
+-1 3 0
+0 -1 -1
+
+Sample Output:
+False
+
+Sample Input:
+3
+1 1 1
+-1 -1 -1
+0 1 1
+
+Sample Output:
+False
+
+Sample Input:
+2
+-1 1
+1 1
+
+Sample Output:
+True
+
+Sample Input:
+2
+-2 -2
+-3 -3
+
+Sample Output:
+False
+
+Sample Input:
+2
+0 -1
+0 0
+
+Sample Output:
+True
